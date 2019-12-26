@@ -23,5 +23,6 @@ chmod +x BuildTools.jar
 chmod +x *.sh
 
 # Build & Deploy
-export SHELL=/bin/bash java -jar BuildTools.jar --rev $VERSION
+export SHELL=/bin/bash
+java -jar BuildTools.jar --rev $VERSION
 bash deploy.sh
